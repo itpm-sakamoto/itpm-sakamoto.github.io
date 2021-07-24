@@ -155,3 +155,40 @@ img {
  * ---------------------------------------
  * ［post.html］記事ページ - モジュール
  */
+
+/**
+ * ---------------------------------------
+ * ポストヘッダー
+ */
+ .post-header {
+   margin-bottom: 60px;
+ }
+
+ /**
+ * ---------------------------------------
+ * ポストコンテンツ
+ */
+ .post-contents {
+   margin: 0 0 60px 0;
+ }
+ @media (min-width: 768px) {
+   .post-contents {
+     max-width: 600px;
+     margin: 0 auto 60px auto;
+   }
+ }
+
+ /**
+ * ---------------------------------------
+ * ポストフッター
+ */
+ .post-footer {
+   margin: 0 0 60px 0;
+ }
+ @media (min-width: 768px) {
+   .post-footer {
+     max-width: 600px;
+     margin: 0 auto 60px auto;
+   }
+ }
+ 
