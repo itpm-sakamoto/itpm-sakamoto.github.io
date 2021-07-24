@@ -38,55 +38,70 @@ img {
  * ***************************************
  * ページ下部
  * ***************************************
- * 
+ *
  * ページ下部コンテナ
  */
 .bottom-container {
-    padding: 0 4% 0 4%;
+  padding: 0 4% 0 4%;
 }
-@media (main-width: 768px) {
-    .bottom-container {
-        margin: 0 auto;
-        padding: 0 20px 0 20px;
-        max-width: 1040px;
-    }
+@media (min-width: 768px) {
+  .bottom-container {
+      margin: 0 auto;
+      padding: 0 20px 0 20px;
+      max-width: 1040px;
+  }
 }
+
+/**
+ * ---------------------------------------
+ * ページ下部モジュール
+ */
 
 /**
  * ***************************************
  * フッター
  * ***************************************
- * 
+ *
  * フッターコンテナ
  */
 .footer-container {
-    padding: 0 4%;
+  padding: 0 4%;
 }
 @media (min-width: 768px) {
-    .footer-container {
-        max-width: 1040px;
-        margin: 0 auto;
-        padding: 0 20px;
-    }
+  .footer-container {
+      max-width: 1040px;
+      margin: 0 auto;
+      padding: 0 20px;
+  }
 }
+
+/**
+ * ---------------------------------------
+ * フッターモジュール
+ */
 
 /**
  * ***************************************
  * メインコンテナ
  * ***************************************
  */
- /**
-  * ***************************************
-  *  [index.html] 記事ページ - メインコンテナ
-  * ***************************************
-  */
+/**
+ * ***************************************
+ * ［post.html］記事ページ - メインコンテナ
+ * ***************************************
+ */
+.post .main-container {
+  padding: 0 4% 0 4%;
+}
+@media (min-width: 768px) {
   .post .main-container {
-      padding: 0 4% 0 4%;
+    max-width: 1040px;
+    margin: 0 auto;
+    padding: 0 20px 0 20px;
   }
-  @media (min-width: 768px) {
-      .post .main-container {
-          max-width: 1040px;
-          margin: 0 auto;
-          padding: 0 20px 0 20px;
-      }
-  }
+}
+
+/**
+ * ---------------------------------------
+ * ［post.html］記事ページ - モジュール
+ */
