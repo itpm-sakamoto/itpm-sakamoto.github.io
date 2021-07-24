@@ -33,3 +33,60 @@ img {
   height: auto;
   vertical-align: bottom;/* 画像下のスペースを消す */
 }
+
+/**
+ * ***************************************
+ * ページ下部
+ * ***************************************
+ * 
+ * ページ下部コンテナ
+ */
+.bottom-container {
+    padding: 0 4% 0 4%;
+}
+@media (main-width: 768px) {
+    .bottom-container {
+        margin: 0 auto;
+        padding: 0 20px 0 20px;
+        max-width: 1040px;
+    }
+}
+
+/**
+ * ***************************************
+ * フッター
+ * ***************************************
+ * 
+ * フッターコンテナ
+ */
+.footer-container {
+    padding: 0 4%;
+}
+@media (min-width: 768px) {
+    .footer-container {
+        max-width: 1040px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+}
+
+/**
+ * ***************************************
+ * メインコンテナ
+ * ***************************************
+ */
+ /**
+  * ***************************************
+  *  [index.html] 記事ページ - メインコンテナ
+  * ***************************************
+  */
+  .post .main-container {
+      padding: 0 4% 0 4%;
+  }
+  @media (min-width: 768px) {
+      .post .main-container {
+          max-width: 1040px;
+          margin: 0 auto;
+          padding: 0 20px 0 20px;
+      }
+  }
