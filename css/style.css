@@ -197,6 +197,9 @@ img {
  line-height: 1.9;
  text-align: justify;
 }
+.post-contents mark {
+  background: linear-gradient(transparent 50%, #ffff7c 50%)
+}
 @media (min-width: 768px) {
   .post-contents {
     max-width: 600px;
